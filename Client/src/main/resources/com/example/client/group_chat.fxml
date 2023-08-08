@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="640.0" prefWidth="900.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane prefHeight="635.0" prefWidth="893.0">
+            <center>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="567.0" prefWidth="893.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button fx:id="btnSend" layoutX="776.0" layoutY="497.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="103.0" text="Gửi" />
+                        <ScrollPane layoutX="8.0" layoutY="14.0" prefHeight="449.0" prefWidth="876.0">
+                            <content>
+                                <AnchorPane prefHeight="451.0" prefWidth="860.0">
+                                    <children>
+                                        <VBox fx:id="chatBox" prefHeight="438.0" prefWidth="860.0" AnchorPane.topAnchor="10.0">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                        </VBox>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                        <TextField fx:id="message" layoutX="14.0" layoutY="492.0" prefHeight="43.0" prefWidth="704.0">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </TextField>
+                        <ImageView fx:id="upload" fitHeight="35.0" fitWidth="35.0" layoutX="733.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../../../images/upload.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+            </center>
+            <top>
+                <AnchorPane prefHeight="86.0" prefWidth="893.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label fx:id="labelName" alignment="CENTER" layoutX="95.0" layoutY="19.0" prefHeight="49.0" prefWidth="290.0" text="Group Chat">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                        <MenuButton fx:id="listOnline" layoutX="696.0" layoutY="28.0" mnemonicParsing="false" text="Danh sách online">
+                            <items>
+
+                            </items>
+                        </MenuButton>
+                    </children>
+                </AnchorPane>
+            </top>
+        </BorderPane>
+    </children>
+    <BorderPane.margin>
+        <Insets />
+    </BorderPane.margin>
+</AnchorPane>
