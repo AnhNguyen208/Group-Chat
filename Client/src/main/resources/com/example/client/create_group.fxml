@@ -29,12 +29,17 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button fx:id="btnCreate" layoutX="250.0" layoutY="415.0" mnemonicParsing="false" text="Tạo nhóm">
+      <Button fx:id="btnCreate" layoutX="185.0" layoutY="415.0" mnemonicParsing="false" text="Tạo nhóm">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
       <MenuButton fx:id="groupMember" layoutX="194.0" layoutY="215.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="334.0" text="MenuButton" />
       <ListView fx:id="listView" layoutX="194.0" layoutY="286.0" prefHeight="107.0" prefWidth="334.0" />
+      <Button fx:id="btnCancel" layoutX="390.0" layoutY="415.0" mnemonicParsing="false" text="Hủy">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

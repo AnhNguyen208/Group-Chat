@@ -1,4 +1,0 @@
-GLOBAL_MESSAGE|AnhNguyen|Hello everyone|21:23
-GLOBAL_FILE|AnhNguyen|test.txt|21:23
-GLOBAL_FILE|AnhNguyen|logo.png|21:23
-GLOBAL_MESSAGE|LeAnh|hello|21:24

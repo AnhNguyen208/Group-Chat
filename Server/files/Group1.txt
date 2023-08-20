@@ -1,3 +1,3 @@
-MESSAGE|Group1|AnhNguyen|fdgdfgdfgfd|10:07
-MESSAGE|Group1|LeAnh|xcvxcvxccvxcv|10:07
-FILE|Group1|LeAnh|logo.png|10:07
+MESSAGE_FROM_GROUP|Group1|LeAnh|vbcvbcvbcvb|22:06
+FILE_FROM_GROUP|Group1|AnhNguyen|logo.png|22:06
+FILE_FROM_GROUP|Group1|TuanAnh|test.txt|22:06

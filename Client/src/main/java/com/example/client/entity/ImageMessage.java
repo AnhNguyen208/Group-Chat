@@ -27,10 +27,10 @@ public class ImageMessage extends Message{
     }
 
     private ImageView generateImage() throws MalformedURLException {
-        int width = bufferedImage.getWidth();
-        int height = bufferedImage.getHeight();
+        int width = this.bufferedImage.getWidth();
+        int height = this.bufferedImage.getHeight();
         ImageView imageView1 = new ImageView(file.toURI().toURL().toExternalForm());
-        imageView1.setFitHeight(height*380/width);
+        imageView1.setFitHeight((double) (height * 380) /width);
         imageView1.setFitWidth(380);
         imageView1.setPreserveRatio(true);
         imageView1.setSmooth(true);

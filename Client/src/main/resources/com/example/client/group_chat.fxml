@@ -18,7 +18,7 @@
             <center>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="567.0" prefWidth="893.0" BorderPane.alignment="CENTER">
                     <children>
-                        <Button fx:id="btnSend" layoutX="776.0" layoutY="497.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="103.0" text="Gửi" />
+                        <Button fx:id="btnSend" layoutX="776.0" layoutY="482.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="103.0" text="Gửi" />
                         <ScrollPane layoutX="8.0" layoutY="14.0" prefHeight="449.0" prefWidth="876.0">
                             <content>
                                 <AnchorPane prefHeight="451.0" prefWidth="860.0">
@@ -32,12 +32,12 @@
                                 </AnchorPane>
                             </content>
                         </ScrollPane>
-                        <TextField fx:id="message" layoutX="14.0" layoutY="492.0" prefHeight="43.0" prefWidth="704.0">
+                        <TextField fx:id="message" layoutX="14.0" layoutY="476.0" prefHeight="43.0" prefWidth="704.0">
                             <font>
                                 <Font size="18.0" />
                             </font>
                         </TextField>
-                        <ImageView fx:id="upload" fitHeight="35.0" fitWidth="35.0" layoutX="733.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="upload" fitHeight="35.0" fitWidth="35.0" layoutX="733.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../../../../../../images/upload.jpg" />
                             </image>
@@ -48,16 +48,28 @@
             <top>
                 <AnchorPane prefHeight="86.0" prefWidth="893.0" BorderPane.alignment="CENTER">
                     <children>
-                        <Label fx:id="labelName" alignment="CENTER" layoutX="95.0" layoutY="19.0" prefHeight="49.0" prefWidth="290.0" text="Group Chat">
+                        <Label fx:id="labelName" alignment="CENTER" layoutX="94.0" layoutY="4.0" prefHeight="49.0" prefWidth="290.0" text="Group Chat">
                             <font>
                                 <Font size="24.0" />
                             </font>
                         </Label>
-                        <MenuButton fx:id="listOnline" layoutX="696.0" layoutY="28.0" mnemonicParsing="false" text="Danh sách online">
+                        <MenuButton fx:id="menuButton" layoutX="633.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="158.0" text="Xin chào, .........">
                             <items>
-
+                                <Menu fx:id="onlineListMenu" mnemonicParsing="false" text="Danh sách online" />
+                                <Menu fx:id="groupListMenu" mnemonicParsing="false" text="Danh sách nhóm" />
+                                <MenuItem fx:id="createGroupMenuItem" mnemonicParsing="false" text="Tạo nhóm chat" />
                             </items>
                         </MenuButton>
+                        <Label fx:id="nameLabel" layoutX="79.0" layoutY="56.0" prefHeight="28.0" prefWidth="172.0" text="GroupName">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                        <ImageView fx:id="avatar" fitHeight="44.0" fitWidth="61.0" layoutX="14.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../../../images/people.png" />
+                            </image>
+                        </ImageView>
                     </children>
                 </AnchorPane>
             </top>

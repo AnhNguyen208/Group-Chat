@@ -20,7 +20,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class FileMessage extends Message{
-    private File file;
+    private final File file;
     public FileMessage(String username, String time, File file) {
         super(username, time);
         this.file = file;

@@ -1,6 +1,5 @@
 package com.example.client.entity;
 
-import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -51,16 +50,6 @@ public class Message {
         imageView.setFitWidth(50);
 
         return imageView;
-    }
-
-    protected TextFlow textFlow() {
-        TextFlow textFlow = new TextFlow();
-        return textFlow;
-    }
-
-    protected TextFlow textFlow1() {
-        TextFlow textFlow = new TextFlow();
-        return textFlow;
     }
 
     protected HBox hBox(Text text) {

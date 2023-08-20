@@ -25,7 +25,7 @@ public class Server {
         int clientNumber = 0;
 
         try {
-            listener = new ServerSocket(7777);
+            listener = new ServerSocket(8888);
         } catch (IOException e) {
             System.out.println(e);
             System.exit(1);

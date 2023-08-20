@@ -1,3 +1,1 @@
-FILE_FROM_PERSON|AnhNguyen|LeAnh|logo.png|12:38
-MESSAGE_FROM_PERSON|AnhNguyen|LeAnh|dfgdfgdfgdfg|12:40
-FILE_FROM_PERSON|AnhNguyen|LeAnh|logo.png|12:40
+MESSAGE_FROM_PERSON|AnhNguyen|TuanAnh|cxvxcvxcvc|22:06
